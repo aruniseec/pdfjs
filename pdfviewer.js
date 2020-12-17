@@ -28,7 +28,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = "node_modules/pdfjs-dist/build/pdf.work
 var CMAP_URL = "node_modules/pdfjs-dist/cmaps/";
 var CMAP_PACKED = true;
 
-var DEFAULT_URL = "2019-corporate-sustainability-report.pdf"; //to be changed
+var DEFAULT_URL = "sample.pdf"; //to be changed
 var SEARCH_STRING = location.search.split('s=')[1];
 var SEARCH_FOR = SEARCH_STRING.replaceAll('%20', ' ');
 var container = document.getElementById("viewerContainer");
